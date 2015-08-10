@@ -23,9 +23,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
     
-    
-    self.view.backgroundColor = [UIColor redColor];
+    self.view.backgroundColor = [UIColor yellowColor];
     
     UITextField *textField =[self textFieldWithFrame:CGRectMake(100, 100, 200, 50)];
     [self.view addSubview:textField];
